@@ -1,4 +1,4 @@
-# Carbon Goose
+<h1 align="center">CARBON GOOSE</h1>
 
 # Project Deliverables
 
@@ -6,13 +6,12 @@ Below are the deliverables for the project:
 
 ## PDF Files
 
-- [Deliverable 1 - Introduction](pdf/deliverable1.pdf)
-- [Deliverable 2 - Analysis](pdf/deliverable2.pdf)
-- [Deliverable 3 - Design](pdf/deliverable3.pdf)
-- [Deliverable 4 - Implementation](pdf/deliverable4.pdf)
-- [Deliverable 5 - Testing](pdf/deliverable5.pdf)
-- [Deliverable 6 - Deployment](pdf/deliverable6.pdf)
-- [Deliverable 7 - Final Report](pdf/deliverable7.pdf)
+- [Requirements](pdf/deliverable1.pdf)
+- [Architecture](pdf/deliverable2.pdf)
+- [Method selection and planning](pdf/deliverable3.pdf)
+- [Risk assessment and mitigation](pdf/deliverable4.pdf)
+- [Implementation ](pdf/deliverable5.pdf)
+
 
 ## JAR File
 
