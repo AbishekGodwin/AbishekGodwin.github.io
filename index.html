@@ -11,39 +11,54 @@
             padding: 0;
         }
         header {
-            background-color: #f8f9fa; /* Set background color */
-            padding: 20px;
-            text-align: center;
+            background-color: #f8f9fa; /* Background color */
+            padding: 10px 20px; /* Reduced padding */
+            display: flex; /* Flex layout */
+            align-items: center; /* Vertically center content */
+            justify-content: space-between; /* Space between logo and title */
+        }
+        header img {
+            height: 60px; /* Logo size */
+        }
+        header h1 {
+            font-size: 24px; /* Smaller title size */
+            margin: 0;
         }
         main {
             padding: 20px;
         }
-     
+        footer {
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
         /* Style for the links */
         a {
             text-decoration: none;
-            color: #007bff; /* Bootstrap primary color */
+            color: #007bff;
         }
         a:hover {
-            text-decoration: underline; /* Underline on hover */
+            text-decoration: underline;
         }
         hr {
-            border: none; /* Remove default border */
-            height: 2px; /* Line height */
-            background-color: #ddd; /* Line color */
-            margin: 20px 0; /* Spacing above and below the line */
+            border: none;
+            height: 2px;
+            background-color: #ddd;
+            margin: 20px 0;
+        }
+        h2 {
+            color: #333;
         }
     </style>
 </head>
 <body>
     <header>
-        <img src="Images/CarbonGoose_Logo.png" width="100" height="100" alt="Logo" /> <!-- Logo on the left -->
-        <div>
-            <h1>CARBON GOOSE</h1>
-        </div>
+        <img src="Images/CarbonGoose_Logo.png" alt="Logo" />
+        <h1>CARBON GOOSE</h1>
     </header>
     <main>
-        <h2>PDF</h2>
+        <h2>PDFs</h2>
         <ul>
             <li><a href="path/to/document1.pdf">Requirements</a></li>
             <li><a href="path/to/document2.pdf">Architecture</a></li>
@@ -52,17 +67,88 @@
             <li><a href="path/to/document5.pdf">Implementation</a></li>
         </ul>
         <hr>
+
         <h2>JAR FILE</h2>
         <ul>
             <li><a href="path/to/project.jar">Download project jar file</a></li>
         </ul>
         <hr>
+
         <h2>VERSION CONTROL REPOSITORY</h2>
         <ul>
             <li><a href="https://github.com/AdamJ-3141/ENG1_Group_6_C3">View on Github</a></li>
         </ul>
         <hr>
-        <!-- Add other content and links as needed -->
+
+        <!-- Design Evolution Section -->
+        <h2>Design Evolution</h2>
+        <p>
+            Follow the evolution of our design process over the course of the project. Click on the weekly updates to see how the design and architecture have evolved based on feedback and requirements:
+        </p>
+        <ul>
+            <li><a href="path/to/week1_design.pdf">Week 1 Design Update</a></li>
+            <li><a href="path/to/week2_design.pdf">Week 2 Design Update</a></li>
+            <li><a href="path/to/week3_design.pdf">Week 3 Design Update</a></li>
+            <!-- Add additional weeks as necessary -->
+        </ul>
+        <hr>
+
+        <!-- Risk Register Section -->
+        <h2>Risk Register</h2>
+        <p>Our risk management process includes identifying, assessing, and mitigating risks. Below is a summary of the project's risks:</p>
+        <ul>
+            <li><a href="path/to/risk_register.pdf">Download Full Risk Register</a></li>
+        </ul>
+        <h3>Key Risks (Snapshot)</h3>
+        <table border="1" cellpadding="10">
+            <thead>
+                <tr>
+                    <th>Risk</th>
+                    <th>Likelihood</th>
+                    <th>Impact</th>
+                    <th>Mitigation</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Delays in feature implementation</td>
+                    <td>Medium</td>
+                    <td>High</td>
+                    <td>Weekly planning and code reviews</td>
+                </tr>
+                <tr>
+                    <td>Integration issues between modules</td>
+                    <td>Low</td>
+                    <td>Medium</td>
+                    <td>Early integration testing and continuous integration tools</td>
+                </tr>
+                <!-- Add more rows for additional risks -->
+            </tbody>
+        </table>
+        <hr>
+
+        <!-- Project Plan (Snapshot) -->
+        <h2>Project Plan</h2>
+        <p>Below is the current snapshot of our project plan. You can view weekly updates and progress in the project:</p>
+        <ul>
+            <li><a href="path/to/project_plan_week1.pdf">Week 1 Project Plan</a></li>
+            <li><a href="path/to/project_plan_week2.pdf">Week 2 Project Plan</a></li>
+            <li><a href="path/to/project_plan_week3.pdf">Week 3 Project Plan</a></li>
+            <!-- Add additional weeks as necessary -->
+        </ul>
+        <hr>
+
+        <!-- Additional Content -->
+        <h2>Additional Content</h2>
+        <p>Links to other documents and resources:</p>
+        <ul>
+            <li><a href="path/to/additional_document.pdf">Additional Document 1</a></li>
+            <li><a href="path/to/additional_document2.pdf">Additional Document 2</a></li>
+            <!-- Add more links as necessary -->
+        </ul>
     </main>
+    <footer>
+        <p>Carbon Goose Project &copy; 2024</p>
+    </footer>
 </body>
 </html>
