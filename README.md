@@ -19,6 +19,6 @@ Below are the deliverables for the project:
 
 ## Version Control Repository
 
-- [View on GitHub]((https://github.com/AdamJ-3141/ENG1_Group_6_C3))
+- [View on GitHub](https://github.com/AdamJ-3141/ENG1_Group_6_C3)
 
 
