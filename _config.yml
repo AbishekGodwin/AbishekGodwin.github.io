@@ -1,6 +1,1 @@
-# Theme settings
-theme: jekyll-theme-minimal  # You can choose any available Jekyll theme here
 
-# Disable default header (GitHub username/repository link)
-header:
-  enabled: false
