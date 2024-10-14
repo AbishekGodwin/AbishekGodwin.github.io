@@ -1,0 +1,12 @@
+# Site settings
+title: "Your Project Title"
+description: "A brief description of your project"
+baseurl: ""  # Leave empty unless your site is in a subfolder
+url: "https://yourusername.github.io/repository-name"  # Your site's URL
+
+# Theme settings
+theme: jekyll-theme-minimal  # You can choose any available Jekyll theme here
+
+# Disable default header (GitHub username/repository link)
+header:
+  enabled: false
