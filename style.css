@@ -1,0 +1,4 @@
+/* Hide the GitHub repository header */
+.repository-content .pagehead {
+    display: none;
+}
