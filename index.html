@@ -32,8 +32,25 @@
         }
 
         header h1 {
-            font-size: 24px;
+            font-size: 20px;
             margin: 0;
+        }
+
+        /* Center the navigation links */
+        nav {
+            display: flex;
+            justify-content: center; /* Centers the links horizontally */
+            gap: 20px; /* Space between the links */
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
         }
 
         main {
@@ -49,42 +66,103 @@
     </style>
 </head>
 <body>
+
     <header>
-        <h1>Carbon Goose Project</h1>
-        <h2>Project Plan</h2>
+        <div class="logo-container">
+            <img src="Images/CarbonGoose_Logo.png" alt="Logo" />
+            <h1>Carbon Goose</h1>
+        </div>
+        <nav>
+            <a href="#deliverables">Deliverables</a>
+            <a href="#risk-register">Risk Register</a>
+            <a href="#design-evolution">Design Evolution</a>
+            <a href="#project-plan">Project Plan</a>
+        </nav>
     </header>
+
     <main>
-        <section>
-            <h2 id="week-2">Week 2</h2>
-            <h3 id="work-breakdown">Work Breakdown</h3>
-            <img src="Images/workbreakdown.png" alt="Work breakdown chart for Week 2" />
-            <hr>
-        </section>
+        <h2 id="deliverables">Game Overview</h2>
+        <p>In this single-player game, you will design and build your own university campus, 
+            placing key buildings such as lecture halls, accommodations, recreational areas, and restaurants. 
+            The game lasts 5 minutes, simulating several years of campus life, and your goal is to maximize student 
+            satisfaction by strategically positioning buildings and reacting to events. The campus map has realistic boundaries, 
+            like lakes or hills, which influence building placement, while student happiness is affected by factors like proximity to essential services and enjoyable recreation. Throughout the game, you will
+            encounter random events—positive, negative, or neutral—which require careful decision-making to maintain or improve satisfaction. 
+            The game ends when time runs out, and the best student satisfaction score wins!</p>
+        <hr>
+        <h2 id="deliverables">Deliverables</h2>
+        <h3 id="deliverables">PDFs</h3>
+        <ul>
+            <li><a href="path/to/document1.pdf">Requirements</a></li>
+            <li><a href="path/to/document2.pdf">Architecture</a></li>
+            <li><a href="path/to/document3.pdf">Method selection and planning</a></li>
+            <li><a href="path/to/document4.pdf">Risk assessment and mitigation</a></li>
+            <li><a href="path/to/document5.pdf">Implementation</a></li>
+        </ul>
+         <h3 id="deliverables">JAR FILE</h3>
+        <ul>
+            <li><a href="path/to/project.jar">Download project jar file</a></li>
+        </ul>
+        <h3>VERSION CONTROL REPOSITORY</h3>
+        <ul>
+            <li><a href="https://github.com/AdamJ-3141/ENG1_Group_6_C3">View on Github</a></li>
+        </ul>
+        <hr>
 
-        <section>
-            <h2 id="week-3">Week 3</h2>
-            <h3 id="project-timeline">Project Timeline Overview</h3>
-            <img src="Images/week3.jpg" alt="Overview of tasks for Week 3" />
-            <hr>
-        </section>
+        <!-- Risk Register Section -->
+        <h2 id="risk-register">Risk Register</h2>
+        <p>Our risk management process includes identifying, assessing, and mitigating risks. Below is a summary of the project's risks:</p>
+        <ul>
+            <li><a href="path/to/risk_register.pdf">Download Full Risk Register</a></li>
+        </ul>
+        <h3>Key Risks</h3>
+        <table border="1" cellpadding="10">
+            <thead>
+                <tr>
+                    <th>Risk</th>
+                    <th>Likelihood</th>
+                    <th>Impact</th>
+                    <th>Mitigation</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Delays in feature implementation</td>
+                    <td>Medium</td>
+                    <td>High</td>
+                    <td>Weekly planning and code reviews</td>
+                </tr>
+                <tr>
+                    <td>Integration issues between modules</td>
+                    <td>Low</td>
+                    <td>Medium</td>
+                    <td>Early integration testing and continuous integration tools</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
 
-        <section>
-            <h2 id="week-4">Week 4</h2>
-            <p>Yet to be updated</p>
-            <hr>
-        </section>
+        <!-- Design Evolution Section -->
+        <h2 id="design-evolution">Design Evolution</h2>
+        <p>Follow the evolution of our design process over the course of the project. Click on the weekly updates to see how the design and architecture have evolved based on feedback and requirements:</p>
+        <ul>
+            <li><a href="path/to/week1_design.pdf">Week 1 Design Update</a></li>
+            <li><a href="path/to/week2_design.pdf">Week 2 Design Update</a></li>
+            <li><a href="path/to/week3_design.pdf">Week 3 Design Update</a></li>
+        </ul>
+        <hr>
 
-        <section>
-            <h2 id="week-5">Week 5</h2>
-            <p>Yet to be updated</p>
-            <hr>
-        </section>
+        <!-- Project Plan Section -->
+        <h2 id="project-plan">Project Plan</h2>
+        <p>Below is the current snapshot of our project plan. You can view weekly updates and progress in the project:</p>
+        <ul>
+            <li><a href="path/to/project_plan_week1.pdf">Week 1 Project Plan</a></li>
+            <li><a href="path/to/project_plan_week2.pdf">Week 2 Project Plan</a></li>
+            <li><a href="path/to/project_plan_week3.pdf">Week 3 Project Plan</a></li>
+        </ul>
+        <hr>
 
-        <section>
-            <h2 id="week-6">Week 6</h2>
-            <p>Yet to be updated</p>
-            <hr>
-        </section>
     </main>
+
 </body>
 </html>
