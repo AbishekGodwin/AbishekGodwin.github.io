@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project plant</title>
+    <title>Carbon Goose Project</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,64 +14,71 @@
         header {
             background-color: #f8f9fa;
             padding: 10px 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center; /* Centers the logo and nav vertically */
-        }
-
-        /* Logo and heading container */
-        header .logo-container {
-            display: flex;
-            align-items: center;
-        }
-
-        header img {
-            width: 50px;
-            height: 50px;
-            margin-right: 10px;
+            text-align: center; /* Centers the text in the header */
         }
 
         header h1 {
-            font-size: 20px;
+            font-size: 24px; /* Main title */
             margin: 0;
+        }
+
+        header h2 {
+            font-size: 20px; /* Subtitle */
+            margin: 5px 0 0; /* Margin adjustments for spacing */
         }
 
         main {
             padding: 20px;
         }
 
-        hr {
-            border: none;
-            height: 2px;
-            background-color: #ddd;
-            margin: 20px 0;
+        section {
+            text-align: center; /* Center aligns the content within each section */
+            margin-bottom: 40px; /* Space between sections */
         }
+
+        img {
+            width: 150px; /* Adjust image size as needed */
+            height: auto; /* Maintain aspect ratio */
+            border: none; /* Remove any borders */
+            margin: 0 auto; /* Center the image horizontally */
+            display: block; /* Display as block to enable margin auto centering */
+        }
+
+        /* Removed <hr> styling since <hr> elements are deleted */
     </style>
 </head>
 <body>
-    <h1>Project Plan</h1>
-    <h2 id="week 2">Week 2</h2>
-    <h3></h3>Work Breakdown</h3>
-    <img src="Images/workbreakdown.png" alt="not in rep" />
-    <hr>
-    <h2 id="week 3">Week 3</h2>
-    <h2>Project Timeline Overview</h2>
-    <img src="Images/week3.jpg" />
-    <hr>
+    <header>
+        <h1>Carbon Goose Project</h1>
+        <h2>Project Plan</h2>
+    </header>
+    <main>
+        <section>
+            <h2 id="week-2">Week 2</h2>
+            <h3 id="work-breakdown">Work Breakdown</h3>
+            <img src="Images/workbreakdown.png" alt="Work breakdown chart for Week 2" />
+        </section>
 
-    <h2 id="week 4">Week 4</h2>
-    <p>Yet to be updated</p>
-    <hr>
-  
-    <h2 id="week 5">Week 5</h2>
-    <p>Yet to be updated</p>
-    <hr>
-  
-    <h2 id="week 6">Week 6</h2>
-    <p>Yet to be updated</p>
-    <hr>
-   
+        <section>
+            <h2 id="week-3">Week 3</h2>
+            <h3 id="project-timeline">Project Timeline Overview</h3>
+            <img src="Images/week3.jpg" alt="Overview of tasks for Week 3" />
+        </section>
 
+        <section>
+            <h2 id="week-4">Week 4</h2>
+            <p>Yet to be updated</p>
+        </section>
+
+        <section>
+            <h2 id="week-5">Week 5</h2>
+            <p>Yet to be updated</p>
+        </section>
+
+        <section>
+            <h2 id="week-6">Week 6</h2>
+            <p>Yet to be updated</p>
+        </section>
+    </main>
 </body>
 </html>
-
