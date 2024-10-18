@@ -20,7 +20,7 @@
         }
 
         header h1 {
-            font-size: 36px; /* Larger title for emphasis */
+            font-size: 32px; /* Larger title for emphasis */
             margin: 0; 
         }
 
@@ -33,28 +33,30 @@
             margin-bottom: 40px; /* Space between sections */
         }
 
-        h2 {
-            font-size: 24px; /* Larger size for section titles */
-            color: #007bff; /* A blue color to make headings stand out */
-        }
-
         h3 {
             font-size: 18px; /* Sub-headings smaller than main headings */
             margin-top: 10px;
             margin-bottom: 10px;
         }
 
+        /* Bullet points for each week */
         ul {
-            list-style-type: disc;
+            list-style-type: disc; /* Default bullet style */
             margin-left: 20px; /* Indent bullet points */
         }
 
-        img {
+        /* Style for each week title (inside the list) */
+        ul li {
+            font-size: 24px; /* Font size for week headings */
+            margin-bottom: 10px;
+        }
+
+       /* img {
             display: block;
             margin: 20px auto; /* Centers the image */
-            max-width: 90%; /* Keep image size at 90% of container */
-            height: auto; /* Maintains aspect ratio */
-        }
+           /* max-width: 90%; /* Keep image size at 90% of container */
+           /* height: auto; /* Maintains aspect ratio */
+      /*  } */
     </style>
 </head>
 <body>
@@ -62,42 +64,44 @@
         <h1>Project Plan</h1>
     </header>
     <main>
-        <section>
-            <h2 id="week-2">WEEK 2</h2>
-            <ul>
-                <li>Work Breakdown: Yet to be updated</li>
-                <!-- Additional bullet points can be added here if necessary -->
-            </ul>
-        </section>
+        <ul>
+            <li>
+                <section>
+                    <h2 id="week-2">Week 2</h2>
+                    <h3 id="work-breakdown">Work Breakdown:</h3>
+                    <p>Yet to be updated</p>
+                </section>
+            </li>
 
-        <section>
-            <h2 id="week-3">WEEK 3</h2>
-            <ul>
-                <li>Project Timeline Overview:</li>
-                <img src="Images/week-3.jpg" alt="Overview of tasks for Week 3" />
-            </ul>
-        </section>
+            <li>
+                <section>
+                    <h2 id="week-3">Week 3</h2>
+                    <h3 id="project-timeline">Project Timeline Overview:</h3>
+                    <img src="Images/week-3.jpg" alt="Overview of tasks for Week 3" />
+                </section>
+            </li>
 
-        <section>
-            <h2 id="week-4">WEEK 4</h2>
-            <ul>
-                <li>Work Breakdown: Yet to be updated</li>
-            </ul>
-        </section>
+            <li>
+                <section>
+                    <h2 id="week-4">Week 4</h2>
+                    <p>Yet to be updated</p>
+                </section>
+            </li>
 
-        <section>
-            <h2 id="week-5">WEEK 5</h2>
-            <ul>
-                <li>Work Breakdown: Yet to be updated</li>
-            </ul>
-        </section>
+            <li>
+                <section>
+                    <h2 id="week-5">Week 5</h2>
+                    <p>Yet to be updated</p>
+                </section>
+            </li>
 
-        <section>
-            <h2 id="week-6">WEEK 6</h2>
-            <ul>
-                <li>Work Breakdown: Yet to be updated</li>
-            </ul>
-        </section>
+            <li>
+                <section>
+                    <h2 id="week-6">Week 6</h2>
+                    <p>Yet to be updated</p>
+                </section>
+            </li>
+        </ul>
     </main>
 </body>
 </html>
