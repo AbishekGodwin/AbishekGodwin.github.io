@@ -17,10 +17,35 @@ header {
     background-color: #f8f9fa;
     padding: 10px 20px;
     display: flex;
-    flex-direction: column;
-    align-items: center; /* Centers the logo and nav vertically */
-    width: 100%; /* Ensures header covers full width */
-    box-sizing: border-box; /* Includes padding in the width */
+    flex-direction: column; /* Stack logo and title vertically */
+    align-items: center; /* Center everything horizontally */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header .logo-container {
+    display: flex;
+    flex-direction: column; /* Stack the logo and title vertically */
+    align-items: center; /* Center logo and title */
+}
+
+header img {
+    width: 30px;  /* Reduce the logo size significantly */
+    height: 30px;
+    margin-bottom: 5px; /* Small gap between logo and title */
+}
+
+header h1 {
+    font-size: 24px; /* Adjust the size of the title */
+    margin: 0;
+    text-align: center; /* Center align the text */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
 }
 
 main {
@@ -29,12 +54,7 @@ main {
     margin: 0 auto; /* Center the content */
 }
 
-nav {
-    display: flex;
-    justify-content: center; /* Centers the links horizontally */
-    gap: 20px; /* Space between the links */
-    width: 100%; /* Ensure navigation covers the full width */
-}
+
 
 hr {
     border: none;
