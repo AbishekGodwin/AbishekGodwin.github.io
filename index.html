@@ -5,64 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carbon Goose Project</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        /* Header styling */
-        header {
-            background-color: #f8f9fa;
-            padding: 10px 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center; /* Centers the logo and nav vertically */
-        }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scroll if content exceeds window width */
+}
 
-        /* Logo and heading container */
-        header .logo-container {
-            display: flex;
-            align-items: center;
-        }
+header {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the logo and nav vertically */
+    width: 100%; /* Ensures header covers full width */
+    box-sizing: border-box; /* Includes padding in the width */
+}
 
-        header img {
-            width: 50px;
-            height: 50px;
-            margin-right: 10px;
-        }
+main {
+    padding: 20px;
+    max-width: 1200px; /* Set a max width to prevent content from stretching too much on large screens */
+    margin: 0 auto; /* Center the content */
+}
 
-        header h1 {
-            font-size: 20px;
-            margin: 0;
-        }
+nav {
+    display: flex;
+    justify-content: center; /* Centers the links horizontally */
+    gap: 20px; /* Space between the links */
+    width: 100%; /* Ensure navigation covers the full width */
+}
 
-        /* Center the navigation links */
-        nav {
-            display: flex;
-            justify-content: center; /* Centers the links horizontally */
-            gap: 20px; /* Space between the links */
-        }
+hr {
+    border: none;
+    height: 2px;
+    background-color: #ddd;
+    margin: 20px 0;
+    width: 100%; /* Ensures hr covers the full width */
+}
 
-        nav a {
-            text-decoration: none;
-            color: #007bff;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        main {
-            padding: 20px;
-        }
-
-        hr {
-            border: none;
-            height: 2px;
-            background-color: #ddd;
-            margin: 20px 0;
-        }
     </style>
 </head>
 <body>
