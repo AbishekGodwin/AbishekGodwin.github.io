@@ -63,6 +63,15 @@
             background-color: #ddd;
             margin: 20px 0;
         }
+        .red-cell {
+            background-color: #f8d7da;
+            color: #721c24;
+    }
+
+      .green-cell {
+        background-color: #d4edda;
+        color: #155724;
+    }
     </style>
 </head>
 <body>
@@ -133,62 +142,73 @@
         </ul>
         <hr>
             <!-- Risk Register Section -->
-        <h2 id="risk-register">Risk Register</h2>
-        <p>Our risk management process includes identifying, assessing, and mitigating risks. Below is a summary of the project's risks:</p>
-        <h3>Key Risks</h3>
-        <table border="1" cellpadding="10">
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Typeth>
-                    <th>Description</th>
-                    <th>Likelihood</th>
-                    <th>Severity</th>
-                    <th>Mitigation</th>
-                    <th>Owner</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th>R1</th>
-                    <th>Project</th>
-                    <th>Work Packages Not Ready</th>
-                    <th>Medium</th>
-                    <th>High</th>
-                    <th>Develop a timeline for work package preparation and assign responsibilities.</th>
-                    <th>Owen Jones,Ken Jacob</th>
+<style>
+    .red-cell {
+        background-color: #f8d7da;
+        color: #721c24;
+    }
 
-                </tr>
-                <tr>
-                    <th>R2</th>
-                    <th>Project</th>
-                    <th>System Requirements Not Tabled</th>
-                    <th>Low</th>
-                    <th>High</th>
-                    <th>Review the requirements gathered from the client</th>
-                    <th>Bailey Horsley,Rory Ingram</th>
-                </tr>
-                <tr>
-                    <th>R3</th>
-                    <th>Product</th>
-                    <th>Game Engine not decided</th>
-                    <th>Low</th>
-                    <th>High</th>
-                    <th>Research game engines</th>
-                    <th>Adam Johnson</th>
-                </tr>
-                <tr>
-                    <th>R4</th>
-                    <th>Project</th>
-                    <th>Website not updated</th>
-                    <th>Low</th>
-                    <th>High</th>
-                    <th>Update the website content regularly and review weekly.</th>
-                    <th>Abishek</th>
+    .green-cell {
+        background-color: #d4edda;
+        color: #155724;
+    }
+</style>
 
-                </tr>
-            </tbody>
-        </table>
+<h2 id="risk-register">Risk Register</h2>
+<p>Our risk management process includes identifying, assessing, and mitigating risks. Below is a summary of the project's risks:</p>
+<h3>Key Risks</h3>
+<table border="1" cellpadding="10">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Type</th>
+            <th>Description</th>
+            <th>Likelihood</th>
+            <th>Severity</th>
+            <th>Mitigation</th>
+            <th>Owner</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th class="red-cell">R1</th> <!-- Red for first cell -->
+            <td>Project</td>
+            <td>Work Packages Not Ready</td>
+            <td>Medium</td>
+            <td>High</td>
+            <td>Develop a timeline for work package preparation and assign responsibilities.</td>
+            <td>Owen Jones, Ken Jacob</td>
+        </tr>
+        <tr>
+            <th class="green-cell">R2</th> <!-- Green for first cell -->
+            <td>Project</td>
+            <td>System Requirements Not Tabled</td>
+            <td>Low</td>
+            <td>High</td>
+            <td>Review the requirements gathered from the client</td>
+            <td>Bailey Horsley, Rory Ingram</td>
+        </tr>
+        <tr>
+            <th class="red-cell">R3</th> <!-- Red for first cell -->
+            <td>Product</td>
+            <td>Game Engine not decided</td>
+            <td>Low</td>
+            <td>High</td>
+            <td>Research game engines</td>
+            <td>Adam Johnson</td>
+        </tr>
+        <tr>
+            <th class="green-cell">R4</th> <!-- Green for first cell -->
+            <td>Project</td>
+            <td>Website not updated</td>
+            <td>Low</td>
+            <td>High</td>
+            <td>Update the website content regularly and review weekly.</td>
+            <td>Abishek</td>
+        </tr>
+    </tbody>
+</table>
+
         <hr>
 
 
