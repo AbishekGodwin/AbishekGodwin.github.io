@@ -3,124 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Plan Evolution</title>
+    <title>Carbon Goose Project</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            line-height: 1.6;
-            background-color: #f3f3f3;
-            color: #333;
         }
-
         /* Header styling */
         header {
-            background-color: #f8f9fa;  /* Change background color to #f8f9fa */
-            color: #333;  /* Keep text dark for contrast */
-            padding: 30px;
-            text-align: center;
+            background-color: #f8f9fa;
+            padding: 10px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers the logo and nav vertically */
         }
 
-        /* Main title */
+        /* Logo and heading container */
+        header .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        header img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+
         header h1 {
-            font-size: 32px;
+            font-size: 20px;
             margin: 0;
         }
 
-        /* Main content styling */
+        /* Center the navigation links */
+        nav {
+            display: flex;
+            justify-content: center; /* Centers the links horizontally */
+            gap: 20px; /* Space between the links */
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
         main {
             padding: 20px;
-            max-width: 900px;
-            margin: auto;
-            background-color: #f3f3f3;
         }
 
-        /* Intro paragraph styling */
-        .intro {
-            font-size: 18px;
-            margin-bottom: 20px;
-            text-align: center;
-            color: #555;
-            line-height: 1.8;
+        hr {
+            border: none;
+            height: 2px;
+            background-color: #ddd;
+            margin: 20px 0;
         }
+        .red-cell {
+            background-color: #f8d7da;
+            color: #721c24;
+    }
 
-        /* Section styling */
-        section {
-            background-color: #ffffff;
-            padding: 20px;
-            margin-bottom: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-left: 6px solid #f8f9fa;  /* Change border color to #f8f9fa */
-        }
-
-        /* Section titles (Week 2, Week 3, etc.) */
-        h2 {
-            font-size: 26px;
-            color: #333;
-            margin: 0 0 20px;
-            text-align: center;
-        }
-
-        /* Sub-headings styling */
-        h3 {
-            font-size: 20px;
-            color: #555;
-            margin-top: 0;
-            text-align: center;
-        }
-        
-        /* Image styling */
-        img {
-            display: block;
-            max-width: 90%;
-            height: auto;
-            margin: 20px auto;
-            border-radius: 8px;
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-            border: 2px solid #ddd; /* Border around each image */
-        }
+      .green-cell {
+        background-color: #d4edda;
+        color: #155724;
+    }
     </style>
 </head>
 <body>
+
     <header>
-        <h1>Project Plan Evolution</h1>
+        <div class="logo-container">
+            <img src="Images/CarbonGoose_Logo.png" alt="Logo" />
+            <h1>Carbon Goose</h1>
+        </div>
+        <nav>
+            <a href="#deliverables">Deliverables</a>
+            <a href="#design-evolution">Design Evolution</a>
+            <a href="#project-plan">Project Plan Evolution</a>
+
+        </nav>
     </header>
+
     <main>
-        <p class="intro">
-            This section provides a week-by-week overview of our project planning progress. Each update shows how tasks were broken down, scheduled, and adjusted to adapt to evolving project needs, helping us stay on track toward our goals.
-        </p>
-  
-        <section>
-            <h2 id="week-2">Week 2</h2>
-            <h3 id="work-breakdown">Work Breakdown</h3>
-            <img src="Images/workbreakdown.png" alt="Work breakdown for Week 2" />
-        </section>
+        <h2 id="deliverables">Game Overview</h2>
+        <p>In this single-player game, you will design and build your own university campus, 
+            placing key buildings such as lecture halls, accommodations, recreational areas, and restaurants. 
+            The game lasts 5 minutes, simulating several years of campus life, and your goal is to maximize student 
+            satisfaction by strategically positioning buildings and reacting to events. The campus map has realistic boundaries, 
+            like lakes or hills, which influence building placement, while student happiness is affected by factors like proximity to essential services and enjoyable recreation. Throughout the game, you will
+            encounter random events—positive, negative, or neutral—which require careful decision-making to maintain or improve satisfaction. 
+            The game ends when time runs out, and the best student satisfaction score wins!</p>
+        <hr>
+        <h2 id="deliverables">Deliverables</h2>
+        <h3 id="deliverables">PDFs</h3>
+        <ul>
+            <li><a href="path/to/document1.pdf">Requirements</a></li>
+            <li><a href="path/to/document2.pdf">Architecture</a></li>
+            <li><a href="path/to/document3.pdf">Method selection and planning</a></li>
+            <li><a href="path/to/document4.pdf">Risk assessment and mitigation</a></li>
+            <li><a href="path/to/document5.pdf">Implementation</a></li>
+        </ul>
+         <h3 id="deliverables">JAR FILE</h3>
+        <ul>
+            <li><a href="path/to/project.jar">Download project jar file</a></li>
+        </ul>
+        <h3>VERSION CONTROL REPOSITORY</h3>
+        <ul>
+            <li><a href="https://github.com/AdamJ-3141/ENG1_Group_6_C3">View on Github</a></li>
+        </ul>
+        <hr>
 
-        <section>
-            <h2 id="week-3">Week 3</h2>
-            <h3 id="project-timeline">Project Timeline Overview</h3>
-            <img src="Images/Gantt_week3.png" alt="Gantt chart for Week 3"/>
-        </section>
 
-        <section>
-            <h2 id="week-4">Week 4</h2>
-            <h3 id="project-timeline">Project Timeline Overview</h3>
-            <img src="Images/Gantt_week4.png" alt="Gantt chart for Week 4"/>
-        </section>
+        <!-- Design Evolution Section -->
+        <h2 id="design-evolution">Design Evolution</h2>
+        <p>Follow the evolution of our design process over the course of the project. Click on the weekly updates to see how the design and architecture have evolved based on feedback and requirements:</p>
+        <ul>
+            <li><a href="designevo.html#week-3">Week 3</a></li>
+            <li><a href="designevo.html#week-4">Week 4</a></li>
+            <li><a href="designevo.html#week-5">Week 5</a></li>
+            <li><a href="designevo.html#week-6">Week 6</a></li>
+        </ul>
+        <hr>
 
-        <section>
-            <h2 id="week-5">Week 5</h2>
-            <h3 id="project-timeline">Project Timeline Overview</h3>
-           <img src="Images/Gantt_week5.png" alt="Gantt chart for Week 5"/>
-        </section>
+        <!-- Project Plan Section -->
+        <h2 id="project-plan">Project Plan Evolution</h2>
+        <p>Below is the current snapshot of our project plan. You can view weekly updates and progress in the project:</p>
+        <ul>
+            <li><a href="projectplan.html#week-2">Week 2 </a></li>
+            <li><a href="projectplan.html#week-3">Week 3 </a></li>
+            <li><a href="projectplan.html#week-4">Week 4</a></li>
+            <li><a href="projectplan.html#week-5">Week 5</a></li>
+            <li><a href="projectplan.html#week-6">Week 6 </a></li>
+        </ul>
+        <hr>
+            <!-- Risk Register Section -->
 
-        <section>
-            <h2 id="week-6">Week 6</h2>
-            <h3 id="project-timeline">Project Timeline Overview</h3>
-            <img src="Images/Gantt_week6.png" alt="Gantt chart for Week 6"/>
-        </section>
+
+
     </main>
+
 </body>
 </html>
